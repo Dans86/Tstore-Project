@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TStore</title>
+    <link rel="stylesheet" type="text/css" href="Tstore.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  
+</head>
+<body >
+    <div class="header">
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#"><i class="fa fa-exchange" aria-hidden="true"></i> Switch Account</a>
+        <br><br><br>
+        <a href="#"><i class="fa fa-sign-out" aria-hidden="true"></i> Sign Out</a>
+        <br><br><br>
+        <a href="#" style="padding-top: 50px;"><i class="fa fa-filter" aria-hidden="true"></i> Filter</a>
+        <br><br><br><br><br>
+        <a href="#" ><i class="fa fa-truck" aria-hidden="true"></i> Route</a>
+        <br><br><br>
+        <a href="#" ><i class="fa fa-comment" aria-hidden="true"></i> Chats</a>
+        
+        <br><br><br><br><br>
+        
+        <label class="switch" style="margin-left: 40%;">
+          <input type="checkbox">
+          <span class="slider round"></span>
+        </label>
+      </div>
+        <a href="#default" class="logo">Store</a>
+        <div class="header-right">
+          <span style="font-size:30px;cursor:pointer" onclick="openNav()"><i class="fa fa-bars"></i></span>
+        </div>
+      </div>
+      <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'London')">London</button>
+        <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+        <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+      </div>
+      
+      <div id="London" class="tabcontent">
+        <h3>London</h3>
+        <p>London is the capital city of England.</p>
+      </div>
+      
+      <div id="Paris" class="tabcontent">
+        <h3>Paris</h3>
+        <p>Paris is the capital of France.</p>
+      </div>
+      
+      <div id="Tokyo" class="tabcontent">
+        <h3>Tokyo</h3>
+        <p>Tokyo is the capital of Japan.</p>
+      </div>
+        
+
+
+    <script type="text/javascript" src="Tstore.js"></script>
+</body>
+</html>
